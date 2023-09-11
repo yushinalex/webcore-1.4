@@ -20,7 +20,7 @@ body {
 }
 
 .top {
-    margin-bottom: 45px;
+    margin-bottom: 40px;
     display: flex;
     height: 88px;
     justify-content: space-between;
@@ -68,7 +68,7 @@ body {
 }
 
 .menu__item {
-    margin-bottom: 32px;
+    margin-bottom: 28px;
 }
 
 .menu__item:last-child {
@@ -81,6 +81,7 @@ body {
     color: #1B1C21;
     position: relative;
     padding-left: 24px;
+    line-height: 32px;
 }
 
 .menu__link:hover {
@@ -152,6 +153,10 @@ body {
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
+}
+
+.bottom__languages {
+    padding-bottom: 32px;
 }
 
 .bottom__language {
