@@ -17,7 +17,7 @@
             <button class="top__button--search button"></button>
         </div>
     </section>
-    <section class="menu">
+    <nav class="menu">
         <ul class="menu__list">
             <li class="menu__item">
                 <a href="#" class="menu__link menu__link--selected">Ремонт техники</a>
@@ -44,7 +44,7 @@
                 <a href="#" class="menu__link">Контакты</a>
             </li>
         </ul>
-    </section>
+    </nav>
     <section class="bottom">
         <div class="bottom__buttons">
             <button class="bottom__button bottom__button--call button"></button>
@@ -55,11 +55,20 @@
             <a href="mailto:mail@cps.com" class="bottom__mail">mail@cps.com</a>
             <a href="tel:88008908900" class="bottom__phone-number">8 800 890 8900</a>
         </div>
-        <div class="bottom__languages">
-            <button class="bottom__language bottom__language--selected">ru</button>
-            <button class="bottom__language">en</button>
-            <button class="bottom__language">ch</button>
-        </div>
+        <form class="bottom__languages">
+            <label>
+                <input class="bottom__input" type="radio" name="lang" checked>
+                <span class="bottom__language">ru</span>
+            </label>
+            <label>
+                <input class="bottom__input" type="radio" name="lang">
+                <span class="bottom__language">en</span>
+            </label>
+            <label>
+                <input class="bottom__input" type="radio" name="lang">
+                <span class="bottom__language">ch</span>
+            </label>
+        </form>
     </section>
 </body>
 </html>
