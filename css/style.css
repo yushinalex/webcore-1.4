@@ -157,6 +157,7 @@ body {
 
 .bottom__languages {
     padding-bottom: 32px;
+    display: flex;
 }
 
 .bottom__language {
